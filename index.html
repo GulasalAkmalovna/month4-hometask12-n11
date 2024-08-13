@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <div">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="text-center">Counter</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <button id="addCount">
+                                Add Task
+                            </button>
+                            <ul id="tasks"></ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+
+    <div>
+        <div class="user-wrap">
+            <div class="wrap">
+                <h1>Add User</h1>
+                <form id="userForm">
+                    <input type="text" id="firstName" placeholder="First Name" />
+                    <input type="text" id="lastName" placeholder="Last Name" />
+                    <input type="text" id="search" placeholder="Search Users" />
+                    <button type="submit">
+                        Add User
+                    </button>
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="TBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>

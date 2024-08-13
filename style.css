@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #f5c6cb;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff7f7;
+}
+
+.card-header {
+    border-bottom: 1px solid #f5c6cb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    color: #f76c6c;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #9d3e3e;
+    margin: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d9534f;
+}
+
+.wrap {
+    padding: 20px;
+}
+
+h1 {
+    color: #f76c6c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+    color: #c4a9a1;
+}
+
+button[type="submit"] {
+    background-color: #f76c6c;
+    /* Soft pink */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #d9534f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #f5c6cb;
+    padding: 12px;
+    text-align: left;
+    color: #333;
+}
+
+table th {
+    background-color: #ffe6e6;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #fddede;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
